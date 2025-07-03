@@ -1,0 +1,17 @@
+POST http://localhost:8000/create-account
+Content-Type: application/json
+
+{
+    "fullname": "William",
+    "email": "test@testmail.com",
+    "password": "test@123"
+}
+
+### 
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "test@testmail.com",
+    "password": "test@123"
+}
